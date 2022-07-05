@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+    integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="commom.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="hd">
+      <div class="inner">
+        <h1><img src="./img/logo.png" alt="로고" /></h1>
+        <nav>
+          <ul class="depth1">
+            <li>
+              <a href="#">브랜드</a>
+              <ul class="depth2">
+                <li><a href="#">청정원</a></li>
+                <li><a href="">호밍스</a></li>
+                <li><a href="">안주야</a></li>
+                <li><a href="">순창</a></li>
+                <li><a href="">카레여왕</a></li>
+                <li><a href="">햇살담은</a></li>
+                <li><a href="">홍초</a></li>
+                <li><a href="">맛선생</a></li>
+                <li><a href="">TV CF</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">제품</a>
+              <ul class="depth2">
+                <li><a href="">전체 정보</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">레시피</a>
+              <ul class="depth2">
+                <li><a href="">청정원레시피</a></li>
+                <li><a href="">식탁이 있는 풍경</a></li>
+                <li><a href="">푸드캐스트</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">뉴스</a>
+              <ul class="depth2">
+                <li><a href="">공지사항</a></li>
+                <li><a href="">이달의식단</a></li>
+                <li><a href="">청정원 할인쿠폰</a></li>
+                <li><a href="">청정원now</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <input class="burger-check" type="checkbox" id="burger-check" /><label class="burger-icon"
+          for="burger-check"><span class="burger-sticks"></span></label>
+        <div class="menu">
+          <div>
+            <i class="fa-solid fa-headset"></i>
+            <span>고객센터</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>정원e샵</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-briefcase"></i>
+            <span>인재채용</span>
+          </div>
+          <div style="width: 200px;"></div>
+          <a href="#"><span>브랜드</span></a>
+          <a href="#"><span>제품</span></a>
+          <a href="#"><span>레시피</span></a>
+          <a href="#"><span>뉴스</span></a>
+          <div class="i">
+            <img src="./img/sns_icon1.png" alt="">
+            <img src="./img/sns_icon2.png" alt="">
+            <img src="./img/sns_icon3.png" alt="">
+            <img src="./img/sns_icon4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="box">
+      <section class="sec1">
+        <input type="radio" name="slide" id="slide01" checked />
+        <input type="radio" name="slide" id="slide02" />
+        <input type="radio" name="slide" id="slide03" />
+        <div class="slide">
+          <ul class="inner">
+            <li>
+              <label for="slide03" class="left"></label>
+              <label for="slide02" class="right"></label>
+              <div>
+                <h2>
+                  <span>청</span>
+                  <span>신선하고 깨끗한 자연을</span>
+                </h2>
+              </div>
+              <div>
+                <h2>
+                  <span>정</span>
+                  <span>정성스럽게</span>
+                </h2>
+              </div>
+              <div>
+                <h2>
+                  <span>원</span>
+                  <span>담다</span>
+                </h2>
+              </div>
+            </li>
+            <li>
+              <label for="slide01" class="left"></label>
+              <label for="slide03" class="right"></label>
+              <div class="video">
+                <video width="100%" height="120%" autoplay loop muted src="./img/송중기짱짱짱.mp4" type="video/mp4"></video>
+              </div>
+            </li>
+            <li>
+              <label for="slide02" class="left"></label>
+              <label for="slide01" class="right"></label>
+              <a href="">
+                <p>
+                  더 나은맛,<br>
+                  더 맛있는 인생
+                </p>
+                <span>The Better Tasting Life</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="box">
+      <section class="sec2">
+        <input type="radio" name="slide2" id="slide2_01"checked />
+        <input type="radio" name="slide2" id="slide2_02" />
+        <input type="radio" name="slide2" id="slide2_03" />
+        <div class="slide">
+          <ul class="inner">
+            <h2>
+              <p>더 나은맛, 더 맛있는 인생</p>
+              <p>The Better Tasting Life</p>
+              <p>
+                음식을 둘러싼 당신의 삶이 더 맛있어지도록,<br>
+                함께 발맞춰가는 라이프푸드&#91;Life Food&#93;브랜드, 청정원 입니다.
+              </p>
+            </h2>
+            <li>
+              <label for="slide2_03" class="left"></label>
+              <label for="slide2_02" class="right"></label>
+              <div>
+                <span>brand</span>
+                <p>7</p>
+              </div>
+              <span>
+                발효 식품부터 안주까지<br>
+                7개의 다양한 식품 브랜드
+              </span>
+            </li>
+            <li>
+              <label for="slide2_01" class="left"></label>
+              <label for="slide2_03" class="right"></label>
+              <div>
+                <span>history</span>
+                <p>1996</p>
+              </div>
+              <span>
+                신선하고 깨끗한 가족을 위한<br>
+                건강한 식탁을 제한하겠다는<br>
+                의지로 1996년에 런칭
+              </span>
+            </li>
+            <li>
+              <label for="slide2_02" class="left"></label>
+              <label for="slide2_01" class="right"></label>
+              <div>
+                <span>Life</span>
+                <p>Good</p>
+              </div>
+              <span>
+                맛과 영양이 가득한 요리로 풍요롭게<br>
+                완성시키는 대한민국 대표<br>
+                종합 식품 전문 브랜드
+              </span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="box">
+      <section class="sec3">
+        <input type="radio" name="slide1" id="slide1_01" checked />
+        <input type="radio" name="slide1" id="slide1_02" />
+        <input type="radio" name="slide1" id="slide1_03" />
+        <input type="radio" name="slide1" id="slide1_04" />
+        <div class="slide">
+          <ul class="inner">
+            <h2>
+              <p>BRAND</p>
+              <p>정원아 오늘도 부탁해! 오늘도 더 맛있게 청정원</p>
+            </h2>
+            <li>
+              <label for="slide1_04" class="left"></label>
+              <label for="slide1_02" class="right"></label>
+              <div class="b_logo">
+                <img src="./img/호밍스로고.svg" alt="호밍스로고">
+                <img src="./img/호밍스 배너로고.png" alt="">
+                <p>제대로 만든 맛있는 한 끼 청정원 호밍스</p>
+                <p>
+                  만족을<br>
+                  요리하다
+                </p>
+                <button>바로가기</button>
+              </div>
+              <div class="brand">
+                <div>
+                  <span>신제품</span>
+                  <img src="./img/호밍스 랍스터 볶음밥.svg" alt="랍스터볶음밥">
+                  <p>호밍스 대게와 랍스터 볶음밥</p>
+                </div>
+                <div>
+                  <span>인기</span>
+                  <img src="./img/호밍스 불고기.svg" alt="불고기">
+                  <p>호밍스 언양식 바싹 불고기</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <label for="slide1_01" class="left"></label>
+              <label for="slide1_03" class="right"></label>
+              <div class="b_logo">
+                <img src="./img/안주야 로고.png" alt="로고">
+                <img src="./img/안주야 배너로고.png" alt="">
+                <p>안주야를 만나는 순간, 모든 것이 즐겁다.</p>
+                <p>
+                  안주야를 만나는 순간,<br>
+                  모든 것이 즐겁다.
+                </p>
+                <button>
+                  바로가기
+                </button>
+              </div>
+              <div class="brand">
+                <div>
+                  <span>신제품</span>
+                  <img src="./img/안주야 신메뉴.jpg" alt="신메뉴">
+                  <p>안주야 홈펍 쭈꾸미 튀김</p>
+                </div>
+                <div>
+                  <span>인기</span>
+                  <img src="./img/안주야 인기.jpg" alt="인기">
+                  <p>안주야 홈펍 닭껍질 튀김</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <label for="slide1_02" class="left"></label>
+              <label for="slide1_04" class="right"></label>
+              <div class="b_logo">
+                <img src="./img/카레여왕로고.png" alt="로고">
+                <img src="./img/카레여왕 배너로고.png" alt="">
+                <p>여왕의 방식 프리미엄 카레</p>
+                <p>
+                  여왕의 방식<br>
+                  프리미엄 카레
+                </p>
+                <button>
+                  바로가기
+                </button>
+              </div>
+              <div class="brand">
+                <div>
+                  <span>신제품</span>
+                  <img src="./img/카레여왕 신메뉴.jpg" alt="신메뉴">
+                  <p>카레여왕 애플&허니</p>
+                </div>
+                <div>
+                  <span>인기</span>
+                  <img src="./img/카레여왕 인기.jpg" alt="인기">
+                  <p>카레여왕 부드러운 버터맛</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <label for="slide1_03" class="left"></label>
+              <label for="slide1_01" class="right"></label>
+              <div class="b_logo">
+                <img src="./img/홍초로고.png" alt="로고">
+                <img src="./img/홍초 배너로고.png" alt="">
+                <p>나를 위한 건강한 일상음료</p>
+                <p>
+                  나를 위한<br>
+                  건강한 일상음료
+                </p>
+                <button>
+                  바로가기
+                </button>
+              </div>
+              <div class="brand">
+                <div>
+                  <span>신제품</span>
+                  <img src="./img/홍초신메뉴.jpg" alt="신메뉴">
+                  <p>홍초 타트체리</p>
+                </div>
+                <div>
+                  <span>인기</span>
+                  <img src="./img/홍초인기.jpg" alt="인기">
+                  <p>홍초 석류</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="box">
+      <section class="sec4">
+        <input type="radio" name="slide3" id="slide3_01" checked />
+        <input type="radio" name="slide3" id="slide3_02" />
+        <input type="radio" name="slide3" id="slide3_03" />
+        <input type="radio" name="slide3" id="slide3_04" />
+        <div class="inner">
+          <p>청정원 NOW</p>
+          <span>청정원의 새롭고 다양한 소식을 전해드립니다.</span>
+          <div class="more">
+            <span><a href="#">more+</a></span>
+          </div>
+          <ul class="now">
+            <li>
+              <label for="slide3_04" class="left"></label>
+              <label for="slide3_02" class="right"></label>
+              <a href="#">
+                <img src="./img/Layer 1.png" alt="now1">
+                <div>
+                  <p>2021.09｜Vol4</p>
+                  <span>
+                    닮은꼴부자 김성언<br>
+                    자기님의 방송 뒷 이야기
+                  </span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <label for="slide3_01" class="left"></label>
+              <label for="slide3_03" class="right"></label>
+              <a href="#">
+                <img src="./img/Layer 2.png" alt="now2">
+                <div>
+                  <p>2021.09｜Vol2</p>
+                  <span>
+                    안주야는 왜 선풍기를<br>
+                    만들었을까
+                  </span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <label for="slide3_02" class="left"></label>
+              <label for="slide3_04" class="right"></label>
+              <a href="#">
+                <img src="./img/Layer 3.png" alt="now3">
+                <div>
+                  <p>2021.09｜Vol1</p>
+                  <span>
+                    요즘 청정원이 캠핑에<br>
+                    진심인 이유?!
+                  </span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <label for="slide3_03" class="left"></label>
+              <label for="slide3_01" class="right"></label>
+              <a href="#">
+                <img src="./img/Layer 4.png" alt="now4">
+                <div>
+                  <p>2021.09｜Vol5</p>
+                  <span>
+                    호밍스가 우리 동네에<br>
+                    이사왔어요
+                  </span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="inner">
+        <div class="footer_top">
+          <span>보도자료</span>
+          <div class="btn">
+            <button>위로가기</button>
+            <button>아래로가기</button>
+          </div>
+          <div class="txt">
+            <span>청정원, 봄에 어울리는 호캉스 음식</span>
+            <span>2022-04-29</span>
+          </div>
+          <button>+</button>
+        </div>
+        <div class="footer_bot">
+          <div class="bot_logo">
+            <img src="./img/logo.svg" alt="푸터로고">
+          </div>
+          <div class="txt2">
+            <span>개인정보처리방침</span>
+            <span>이메일주소 무단수집 거부</span>
+            <span>사이트맵</span>
+            <span>공지사항</span>
+          </div>
+          <div class="icon">
+            <img src="./img/sns_icon1.png" alt="">
+            <img src="./img/sns_icon2.png" alt="">
+            <img src="./img/sns_icon3.png" alt="">
+            <img src="./img/sns_icon4.png" alt="">
+          </div>
+          <div class="familysite">
+            <select name="sitelist">
+              <option value="#">계열사/브랜드 사이트</option>
+              <option value="#">대상 홈페이지</option>
+              <option value="#">정원e샵 쇼핑몰</option>
+            </select>
+          </div>
+    </footer>
+  </div>
+  <div class="circle"></div>
+    <script>
+        const circle = document.querySelector(".circle");
+
+        document.addEventListener("mousemove", (e) => {
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+            circle.style.left = mouseX + 'px';
+            circle.style.top = mouseY + 'px';
+        });
+    </script>
+</body>
+
+</html>
